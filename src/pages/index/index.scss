@@ -1,0 +1,97 @@
+page {
+  background-color: #fff;
+}
+.sendCaptcha-page {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 80px 50px 0 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .sendCaptcha-title {
+    width: 100%;
+    font-size:50px;
+    font-weight:600;
+    color:rgba(74,74,74,1);
+  }
+  .sendCaptcha-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+    .mobile-num{
+      font-size:28px;
+      font-weight:400;
+      color:rgba(155,155,155,1);
+    }
+    .countdown{
+      font-size:28px;
+      font-weight:400;
+      color:rgba(255,104,0,1);
+      position: absolute;
+      right: 0;
+      z-index: 20;
+    }
+  }
+  .sendCaptcha-input-container{
+    margin-top: 80px;
+    display: flex;
+    width: 425px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    .sendCaptcha-input{
+      //position: absolute;
+      //top: 0;
+      //width: 100%;
+      //height: 100%;
+      //box-sizing: border-box;
+      //display: flex;
+      //align-items: center;
+      //justify-content: center;
+      //font-size:42px;
+      //font-weight:500;
+      //color:rgba(74,74,74,1);
+      //opacity: 0;
+      //color: white;
+      opacity: 0;
+      position: absolute;
+      width: 200%;
+      height: 100%;
+      color: #fff0;
+      caret-color: #FFF;
+      left: -100%;
+      top: 0;
+    }
+    .sendCaptcha-input-box{
+      width:88px;
+      height:110px;
+      background:rgba(249,250,251,1);
+      border-radius:10px;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+    .sendCaptcha-input-box-at{
+      @keyframes blink{
+        0%{opacity: 1;}
+        50% { opacity: 1; }
+        50.01% { opacity: 0; }
+        100%{opacity: 0;}
+      }
+      &:after{
+        content:'|';
+        color:#FFE745;
+        animation: blink 1s linear infinite;
+      }
+
+    }
+  }
+
+}
