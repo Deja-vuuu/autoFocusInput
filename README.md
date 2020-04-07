@@ -22,5 +22,5 @@
 
 
   [1]: https://img.shields.io/badge/autoFocusInput-v1.0-brightgreen.svg
-  [2]: http://chuantu.xyz/t6/721/1582710586x3661913030.png
-  [3]: http://chuantu.xyz/t6/721/1582709835x3703728804.gif
+  [2]: https://raw.githubusercontent.com/QAQXiYangYang/autoFocusInput/master/carbon.png
+  [3]: https://raw.githubusercontent.com/QAQXiYangYang/autoFocusInput/master/preview.gif
