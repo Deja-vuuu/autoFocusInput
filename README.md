@@ -6,8 +6,9 @@
 用户输入后自动聚焦下一个input。
 如图。
 
-> 运行 yarn global add @tarojs/cli@2.2.13
-> npm run dev:weapp
+> 1、运行 yarn global add @tarojs/cli@2.2.13
+
+> 2、npm run dev:weapp
 
 
 
