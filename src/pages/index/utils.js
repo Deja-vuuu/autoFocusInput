@@ -25,5 +25,5 @@ const encryMobile = (str)=> {
 }
 
 export {
-  encryMobile
+  encryMobile,
 }
