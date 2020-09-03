@@ -2,7 +2,7 @@
   "miniprogramRoot": "./dist",
   "projectname": "autoFocusInput",
   "description": "input 输入后自动聚焦下一个",
-  "appid": "touristappid",
+  "appid": "wx1f421e4985ee8bb8",
   "setting": {
     "urlCheck": true,
     "es6": false,
