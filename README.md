@@ -2,9 +2,9 @@
 
 ![此处输入图片的描述][1]
 
-
 用户输入后自动聚焦下一个input。
-如图。
+
+[点我预览](https://deja-vuuu.github.io/autoFocusInput/dist/)
 
 > 1、运行 yarn global add @tarojs/cli@2.2.13
 
