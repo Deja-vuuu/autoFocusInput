@@ -2,7 +2,7 @@
 
 ![此处输入图片的描述][1]      ![此处输入图片的描述][2]
 
-
+react版本demo [autoFocusInput-react]  (https://github.com/Deja-vuuu/reactPractice)
 
 用户输入后自动聚焦下一个input。
 
